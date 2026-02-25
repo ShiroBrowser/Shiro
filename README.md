@@ -49,7 +49,7 @@ python src/main.py
 
 ## 🌐 Site Oficial
 
-Visite-nos em: [shiro.sh](https://shiro.sh)
+Visite-nos em: [shirobrowser.sh](https://shirobrowser.sh)
 
 ## 📄 Licença
 
