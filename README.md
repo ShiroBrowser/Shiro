@@ -53,7 +53,7 @@ Visite-nos em: [shirobrowser.sh](https://shirobrowser.sh)
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença MIT - consulte o ficheiro [LICENSE](https://github.com/ShiroBrowser/Shiro/blob/LICENSE) para mais detalhes.
+Este projeto está licenciado sob a licença MPL 3.0 - consulte o ficheiro [LICENSE](https://github.com/ShiroBrowser/Shiro/blob/LICENSE) para mais detalhes.
 
 ---
 
