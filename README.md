@@ -1,3 +1,5 @@
+<img src="https://github.com/ShiroBrowser/ShiroAssets/blob/main/browser.png">
+
 # 🛡️ Shiro Browser
 
 O **Shiro Browser** é um navegador moderno, focado em privacidade e alta performance, construído com **Python** e o motor **Chromium**. O seu nome (*Shiro* - Branco/Puro em japonês) reflete a nossa filosofia: uma experiência de navegação limpa, sem anúncios intrusivos e extremamente rápida.
