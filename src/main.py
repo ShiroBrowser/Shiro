@@ -96,6 +96,14 @@ class Shiro(QMainWindow):
 
         self.browser.setUrl(QUrl("https://github.com"))
 
+        directory = os.path.dirname(os.path.abspath(__file__))
+        home = os.path.join(directory, "ui", "home.html")
+
+        url_inicial = QUrl.fromLocalFile(home)
+
+
+        self.browser.setUrl(url_inicial)
+    
     def navigate(self):
         text = self.url.text().strip()
 
