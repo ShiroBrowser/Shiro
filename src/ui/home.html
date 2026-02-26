@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Guia</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #05002b;
+        background-image: radial-gradient(
+          circle at center,
+          #1a0066 0%,
+          #05002b 100%
+        );
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        overflow: hidden;
+      }
+
+      .search {
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+      }
+
+      .search-box {
+        width: 100%;
+        padding: 16px 25px;
+        font-size: 18px;
+        color: white;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 30px;
+        outline: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      .search-box:focus {
+        background: rgba(255, 255, 255, 0.15);
+        border-color: #7000ff;
+        box-shadow: 0 0 20px rgba(112, 0, 255, 0.4);
+        transform: scale(1.02);
+      }
+
+      .search-box::placeholder {
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .welcome-text {
+        color: white;
+        margin-bottom: 30px;
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Shiro</h2>
+
+    <h1 class="welcome-text">Para onde vamos agora?</h1>
+
+    <div class="search">
+      <form action="https://www.google.com/search" method="get">
+        <input
+          type="text"
+          name="q"
+          class="search-box"
+          placeholder="Pesquisar na web ou digitar endereço..."
+          autofocus
+        />
+      </form>
+    </div>
+  </body>
+</html>
